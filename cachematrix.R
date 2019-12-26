@@ -1,4 +1,5 @@
-## Write a short comment describing this function
+## These functions will produce a matrix and invert it or retrieve the inverted form of it
+## The first function produces a matrix and initializes methods that can get it and set it.
 
 makeCacheMatrix <- function(x = matrix()) 
 {
@@ -16,7 +17,8 @@ makeCacheMatrix <- function(x = matrix())
 }
 
 
-## Write a short comment describing this function
+## This function initially tries to retrieve the cached inverted form of the matrix above
+## and if there's nothing available it inverts the matrix
 
 cacheSolve <- function(x, ...) 
 {
